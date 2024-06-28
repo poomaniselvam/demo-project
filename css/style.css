@@ -1,0 +1,726 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+ 
+}
+.fixed-top {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+  padding: 0 !important;
+}
+
+.nav2{
+  height: 120px;
+
+  background: rgb(159,230,238);
+  background: -moz-linear-gradient(90deg, rgba(159,230,238,1) 0%, rgba(255,255,255,1) 11%, rgba(246,247,247,1) 90%, rgba(160,228,230,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(159,230,238,1) 0%, rgba(255,255,255,1) 11%, rgba(246,247,247,1) 90%, rgba(160,228,230,1) 100%);
+  background: linear-gradient(90deg, rgba(159,230,238,1) 0%, rgba(255,255,255,1) 11%, rgba(246,247,247,1) 90%, rgba(160,228,230,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9fe6ee",endColorstr="#a0e4e6",GradientType=1);
+}
+.nav2 img{
+  width: 200px;
+  margin-left: 50%;
+}
+#navbarNavAltMarkup{
+margin-left: 20%;
+justify-content: center;
+}
+#nav-link{
+padding: 20px;
+}
+#btn {
+ 
+  border-radius: 30px 30px 30px;
+  margin-top: 4px;
+/* background-color: #1977cc;  */
+
+
+}
+#navarnav .nav-link:hover {
+  
+  color: #1977cc; /* Change to the primary color */
+}
+#navarnav .nav-link[href="#"]:first-child {
+  text-decoration: underline;
+  
+}
+
+
+.section1img img{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.cardhead{
+  margin-top: 150px;
+  justify-content: center;
+
+  
+
+} 
+
+.heading1{
+  padding-top:60px ;
+}
+.heading1 h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 700;
+
+}
+.heading1 button{
+margin-top: 50px;
+margin-bottom: 60px;
+border-radius: 30px 30px 30px;
+
+
+}
+.card2{
+  background-color:#1977CC;
+  text-align: center;
+  padding: 30px;
+  border-radius: 4px;
+  color: aliceblue;
+  height: 100%;
+}
+ 
+.card2 p{
+  font-size: 15px;
+
+}
+
+ 
+
+.card2 button{
+
+  border-radius: 30px 30px 30px;
+  padding: 5px 30px 5px 30px; 
+}
+#card2pic3 img{
+  width: 50px;
+}
+
+
+
+.card{
+  
+  text-align: center;
+  border-radius: 10px;
+  padding:30px 40px;
+
+}
+
+/* ... (other parts of your CSS remain unchanged) ... */
+
+.about {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  
+}
+
+.div1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative; /* Relative positioning for absolute button */
+}
+
+.div1 .aboutpic img {
+  width: 100%;
+  height: 630px;
+ 
+}
+
+
+
+.div2 {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.div2 h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.div2 h5 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.div2 p {
+  font-size: 1rem;
+}
+
+/* ... (previous code) ... */
+
+/* ... (previous code) ... */
+
+/* ... (previous code) ... */
+
+/* ... (previous code) ... */
+
+.service {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Optional: Add some space below the service */
+}
+
+.service-btn {
+  background-color: #1977CC; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 70%;
+  padding: 10px;
+  transition: background-color 0.3s; /* Transition effect for hover */
+  margin-right: 20px; /* Spacing between button and h2 */
+}
+
+.service-btn img {
+ width: 50px;
+}
+.service-btn:hover {
+  background-color: #1977cc; /* Darker color on hover */
+}
+
+.service-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-text h2 {
+  margin-bottom: 10px; /* Optional: Add some space below the h2 */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color:#f1f7fd;
+  
+}
+
+.details{
+  margin-top: 40px;
+ 
+}
+
+ .flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px 170px 10px 170px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: white;
+} 
+
+.servicepart2 {
+  height: auto;
+  background-color: #f1f7fd;
+  display: flex;
+  
+  justify-content: flex-start; /* Align items at the start of the flex container */
+  align-items: center;  /* Center align items vertically */
+  flex-direction: column;
+}
+
+.servicepart2 h1 {
+  text-align: center;
+  margin-top: 20px; /* Added margin-top to position h1 at the top of the container */
+  margin-bottom: 50px; /* Added margin-bottom for spacing between h1 and .servicepart3 */
+  text-decoration: underline solid rgba(219, 221, 224, 0.164) 10%;
+  
+}
+
+.servicepart3 {
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+    
+}
+
+/* .se div {
+ flex-grow: 1;
+  flex-basis: 25%;
+  width: 100px;
+  height: 300px;
+  margin: 25px;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center; */
+  
+   
+
+.serv:hover{
+background-color: #1977cc;
+}
+.Appointment h1 {
+text-align: center;
+margin-top: 20px; /* Added margin-top to position h1 at the top of the container */
+  margin-bottom: 50px;
+  text-decoration:underline skyblue;
+}
+ .Appointment p{
+  text-align: center;
+}
+.Appointment{
+  background-color:#f1f7fd;
+}
+.app-btn{
+background: #1977cc;
+border: 0;
+padding: 10px 35px;
+color:white;
+transition: 0.4s;
+border-radius: 50px;
+margin-top: 50px;
+}
+
+
+#FAQ1
+{
+  text-align: center;
+  margin-top: 40px; /* Added margin-top to position h1 at the top of the container */
+    margin-bottom: 50px;
+    padding: 60px 0;
+    background-color: #f1f7fd;;
+}
+.accordion-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#FAQHEAD h2{
+  text-align: center;
+  margin-top: 20px;
+}
+#FAQHEAD p{
+  text-align: center;
+}
+
+#carouselExampleIndicators{
+  width: 100%;
+  height: 250PX;
+  background-color: red;
+}
+.questions{
+  background-color: #f1f7fd;;
+}
+
+.questions h1 {
+  text-align: center;
+  margin-top: 20px; /* Added margin-top to position h1 at the top of the container */
+  margin-bottom: 20px; /* Added margin-bottom for spacing between h1 and .servicepart3 */
+  text-decoration: underline solid blue 10%;
+}
+
+.questions h4{
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+#slidepart{
+ background-color:white;
+  width: 100%;
+  height: auto;
+}
+/* 
+.slidepart2{
+
+} */
+
+.carousel-item {
+  width: 100%;
+  height: 400px;
+}
+/* ... (other styles remain unchanged) */
+
+.item1 {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  margin-top: 80px;
+  text-align: left;
+  padding: 10px;
+  transition: transform 0.5s ease; /* Adding transition for smooth zoom effect */
+}
+
+.item2 {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  margin-top: 80px;
+  text-align: left;
+  padding: 10px;
+  transition: transform 0.5s ease; /* Adding transition for smooth zoom effect */
+}
+
+.carousel-item:nth-child(1).active .item1 {
+  transform: scale(1.1); /* Zoom in effect for item1 when its slide is active */
+}
+
+.carousel-item:nth-child(2).active .item2 {
+  transform: scale(1.1); /* Zoom in effect for item2 when its slide is active */
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-indicators button {
+  width: 2px; /* Adjust width if needed */
+  height: 2px; /* Adjust height if needed */
+  border-radius: 50%; /* Rounded shape */
+  background-color: transparent; /* Transparent background */
+  border: 2px solid #000; /* Border color */
+  margin-right: 3px; /* Space between buttons */
+  transition: background-color 0.3s ease; /* Smooth transition for background-color */
+}
+
+.carousel-indicators button.active
+
+.carousel-indicators button:hover {
+  background-color:blue; /* Blue background when active or hovered */
+}
+.container-img h2{
+text-align: center;
+margin: 50px;
+}
+.container-img p{
+  text-align: center;
+  margin-top: 30px;
+}
+.container-map h2{
+  text-align: center;
+  margin:50px;
+}
+.container-map p {
+  text-align: center;
+  margin:50px;
+}
+.col-lg-4 p{
+  position:absolute;
+}
+.col-lg-4 h4{
+  padding-left: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.image{
+  padding: 10px;
+  background-color: white;
+  transition: transform .2s;
+  width: 100%;
+  height:100%;
+  margin: 0 auto;
+}
+
+.image:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(0.5); 
+}
+
+
+
+/* contact */
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #1977cc;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #d6e9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2c4964;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #4b7dab;
+  position: absolute;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #1977cc;
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #1977cc;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #1c84e3;
+}
+   /* footer */
+   #footer {
+    color: #444444;
+    font-size: 14px;
+    background: #f1f7fd;
+  }
+  
+  #footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  }
+  
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  #footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #1c84e3;
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: #1977cc;
+  }
+  
+  #footer .footer-newsletter {
+    font-size: 15px;
+  }
+  
+  #footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #bfdcf7;
+  }
+  
+  #footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+  }
+  
+  #footer .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #1977cc;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+  }
+  
+  #footer .footer-newsletter form input[type=submit]:hover {
+    background: #1c84e3;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #444444;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #1977cc;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #1c84e3;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  /* Apply styles to input fields */
+input::placeholder {
+  text-transform: uppercase;
+}
